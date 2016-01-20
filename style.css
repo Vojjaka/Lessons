@@ -1,0 +1,53 @@
+body {
+	width: 100%;
+	margin: 0;
+	font-family: arial;
+}
+header{
+	/*position: relative;*/
+	width: 100%;
+	height: 60px;
+	background-color: grey;
+}
+.headerLogo{
+	/*position: absolute;*/
+	height: 40px;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    clear: both;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.left_pannel{
+	background-color: #35363a;
+	width: 200px;
+	height: 100%;
+	float: left;
+	font-size: 16px;
+	color: white;
+}
+.left_pannel ul li{
+	list-style-type: none;
+}
